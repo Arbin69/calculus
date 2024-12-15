@@ -1,0 +1,32 @@
+<resources>
+    <!-- Button row style -->
+    <style name="buttonRow">
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:background">@color/black</item> <!-- Set the background color for the row -->
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <!-- Style for normal number buttons -->
+    <style name="buttonNumber">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@color/white</item> <!-- White background -->
+        <item name="android:textSize">24sp</item> <!-- Text size -->
+        <item name="android:textColor">@color/black</item> <!-- White text color -->
+        <item name="android:onClick">numberAction</item> <!-- Button click action -->
+    </style>
+
+    <!-- Style for operator buttons -->
+    <style name="buttonOperator">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@color/white</item> <!-- White background -->
+        <item name="android:textSize">24sp</item> <!-- Text size -->
+        <item name="android:textColor">@color/orange</item> <!-- Orange text color -->
+        <item name="android:onClick">operatorAction</item> <!-- Operator button click action -->
+    </style>
+</resources>
